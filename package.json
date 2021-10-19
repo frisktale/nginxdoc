@@ -1,0 +1,23 @@
+{
+  "name": "nginxdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frisktale/nginxdoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "bugs": {
+    "url": "https://github.com/frisktale/nginxdoc/issues"
+  },
+  "homepage": "https://github.com/frisktale/nginxdoc#readme",
+  "devDependencies": {
+    "vuepress-vite": "^2.0.0-beta.26"
+  }
+}
